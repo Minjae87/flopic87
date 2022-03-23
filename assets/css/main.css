@@ -690,6 +690,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57aef9', end
     left: 5px;
     width: 15px;
     fill: #fff;
+    transform: rotate(90deg);
 }
 .intro--banner img {
     position: absolute;
