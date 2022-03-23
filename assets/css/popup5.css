@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#57aef9+0,d7b2ff+100 */
+background: #57aef9; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #57aef9 0%, #d7b2ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #5c9bd1 0%,#d7b2ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #57aef9 0%,#d7b2ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57aef9', endColorstr='#d7b2ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+background-attachment: fixed; /*화면전체 보이기*/
+}
+
+
+
+.photo>ul>li>img{
+    width: 100%;
+    border-radius: 10px;   
+    display: block;
+}
+
+.video>ul{
+    text-align: center;
+}
+
+.video>ul>li{
+    background-attachment: fixed;
+    padding:0.5%;
+    box-sizing: border-box;    
+}
+
+/*유튜브영상 반응형. 영상 크기에 따라서 미디어쿼리 기준(max-width)만 변경 해주면 됨.*/
+@media (max-width:1280px){
+    .video>ul>li {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+
+    .video>ul>li iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+

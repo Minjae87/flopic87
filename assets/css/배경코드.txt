@@ -1,0 +1,5 @@
+background: linear-gradient(217deg, rgba(128,229,235,0.8), rgba(255,0,0,0) 70.71%), linear-gradient(127deg, rgba(255,219,255,1.5), rgba(0,255,0,0) 70.71%),linear-gradient(336deg, rgba(175,153,255,1.5), rgba(0,0,255,0) 70.71%);
+
+아니면 여기서 만들어서 넣어도 되요~
+
+https://www.colorzilla.com/gradient-editor/
