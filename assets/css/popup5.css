@@ -37,7 +37,7 @@ background-attachment: fixed; /*화면전체 보이기*/
 }
 
 /*유튜브영상 반응형. 영상 크기에 따라서 미디어쿼리 기준(max-width)만 변경 해주면 됨.*/
-@media (max-width:1280px){
+@media (max-width:800px){
     .video>ul>li {
         position: relative;
         width: 100%;
